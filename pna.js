@@ -23,3 +23,13 @@ const isArmstrong = (n) => {
 
 console.log(isPrime(4))
 console.log(isArmstrong(152))
+console.log(isPrime())
+
+const abc = function () {
+    (() => {
+        console.log("SS")
+        console.log("AA")
+    }());
+}
+
+abc();
